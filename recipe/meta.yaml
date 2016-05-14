@@ -19,7 +19,7 @@ build:
     - evaluate_detections.py = bob.ip.facedetect.script.evaluate:main
     - plot_froc.py = bob.ip.facedetect.script.plot_froc:main
   number: 1
-  skip: true  # [not linux]
+  skip: true  # [win]
   script: python -B setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -32,6 +32,7 @@ requirements:
     - bob.ip.color
     - bob.io.image
     - boost 1.60.*
+    - pkg-config
 
   run:
     - python
