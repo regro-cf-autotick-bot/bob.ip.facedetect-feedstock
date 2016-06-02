@@ -20,7 +20,6 @@ build:
     - plot_froc.py = bob.ip.facedetect.script.plot_froc:main
   number: 1
   skip: true  # [win]
-  script: python -B setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
