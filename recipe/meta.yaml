@@ -18,7 +18,7 @@ build:
     - detect_faces.py = bob.ip.facedetect.script.detect_faces:main
     - evaluate_detections.py = bob.ip.facedetect.script.evaluate:main
     - plot_froc.py = bob.ip.facedetect.script.plot_froc:main
-  number: 1
+  number: 2
   skip: true  # [win]
 
 requirements:
@@ -30,7 +30,7 @@ requirements:
     - bob.ip.draw
     - bob.ip.color
     - bob.io.image
-    - boost 1.60.*
+    - boost 1.61.*
     - pkg-config
 
   run:
@@ -40,7 +40,7 @@ requirements:
     - bob.ip.draw
     - bob.ip.color
     - bob.io.image
-    - boost 1.60.*
+    - boost 1.61.*
 
 test:
   commands:
