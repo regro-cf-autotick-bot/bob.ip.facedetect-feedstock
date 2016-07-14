@@ -1,4 +1,4 @@
-{% set version = "2.0.7" %}
+{% set version = "2.0.8" %}
 
 package:
   name: bob.ip.facedetect
@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.ip.facedetect-{{ version }}.zip
   url: https://pypi.python.org/packages/source/b/bob.ip.facedetect/bob.ip.facedetect-{{ version }}.zip
-  md5: 98188aad12c496e026d9ebcd89a71f9b
+  md5: df6c2edad0fc7595235bcdad218af620
 
 build:
   entry_points:
@@ -18,7 +18,7 @@ build:
     - detect_faces.py = bob.ip.facedetect.script.detect_faces:main
     - evaluate_detections.py = bob.ip.facedetect.script.evaluate:main
     - plot_froc.py = bob.ip.facedetect.script.plot_froc:main
-  number: 2
+  number: 0
   skip: true  # [win]
 
 requirements:
