@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.ip.facedetect-{{ version }}.zip
-  url: https://pypi.python.org/packages/source/b/bob.ip.facedetect/bob.ip.facedetect-{{ version }}.zip
+  url: https://pypi.io/packages/source/b/bob.ip.facedetect/bob.ip.facedetect-{{ version }}.zip
   md5: df6c2edad0fc7595235bcdad218af620
 
 build:
