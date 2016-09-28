@@ -1,4 +1,4 @@
-{% set version = "2.0.8" %}
+{% set version = "2.0.10" %}
 
 package:
   name: bob.ip.facedetect
@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.ip.facedetect-{{ version }}.zip
   url: https://pypi.io/packages/source/b/bob.ip.facedetect/bob.ip.facedetect-{{ version }}.zip
-  md5: df6c2edad0fc7595235bcdad218af620
+  md5: 9e53eca8c2a65103ee5ef6937a8fd84b
 
 build:
   entry_points:
@@ -62,7 +62,7 @@ test:
     - nose
 
 about:
-  home: http://github.com/bioidiap/bob.ip.facedetect
+  home: https://www.idiap.ch/software/bob/
   license: Modified BSD License (3-clause)
   summary: Face Detection using a Cascade of Boosted LBP Features
 
