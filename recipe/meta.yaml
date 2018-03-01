@@ -1,4 +1,4 @@
-{% set version = "2.1.0" %}
+{% set version = "2.1.4" %}
 
 package:
   name: bob.ip.facedetect
@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.ip.facedetect-{{ version }}.zip
   url: https://pypi.io/packages/source/b/bob.ip.facedetect/bob.ip.facedetect-{{ version }}.zip
-  md5: 43985e483a119b498a3584fc9b5567cf
+  md5: ae989569cfeb28adcc51ec5848cd842d
 
 build:
   entry_points:
